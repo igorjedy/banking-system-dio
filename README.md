@@ -2,23 +2,20 @@
 
 ### Código em python responsável pela criação de um apalicação para banco que faz opreações básicas de saque, depósito e abertura de extrato
 
-menu = """
-Determine a operação que gostaria de realizar
-
-[s] = Saque
-[d] = Depósito
-[e] = Extrato
-[f] = Finalizar
-
-"""
-
-limite = 500
-extrato = ""
-saldo = 0
-LIMITE_SAQUES_DIARIOS = 3
-numero_saques = 0
-
-while True:
+    menu = """
+    Determine a operação que gostaria de realizar
+    
+    [s] = Saque
+    [d] = Depósito
+    [e] = Extrato
+    [f] = Finalizar
+    """
+    limite = 500
+    extrato = ""
+    saldo = 0
+    LIMITE_SAQUES_DIARIOS = 3
+    numero_saques = 0
+    while True:
 
     opcao = input(menu)
     
