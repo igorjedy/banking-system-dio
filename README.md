@@ -61,7 +61,7 @@
     else:
         print("Operação inválida, selecione uma opção dentro do menu")
 
-###Código em python responsável pela criação de um aplicação para banco que faz operações básicas de saque, depósito e abertura de extrato, criação de usuárrio e vinculação de usuários e contas criadas DESAFIO 2
+### Código em python responsável pela criação de um aplicação para banco que faz operações básicas de saque, depósito e abertura de extrato, criação de usuárrio e vinculação de usuários e contas criadas DESAFIO 2
 
         def menu ():
         menu = """
